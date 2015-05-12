@@ -55,9 +55,6 @@ public class ITestActivity extends Activity {
 			while ((length = open.read(buffer)) != -1) {
 				out.write(buffer, 0, length);
 			}
-			
-			
-			
 			isLock = false;
 			open.close();
 			out.close();
